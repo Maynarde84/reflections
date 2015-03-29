@@ -1,0 +1,21 @@
+Q1: How did viewing a dif between two versions of a file help you see the bug that was introduced?
+
+A1: I got to see the differences between the original file and the new file, diff located the exact lines for me and saved me scrolling through thousands of lines of code with my eyes which is terribly inefficient.
+If the file worked originally and the new one doesn't, then it's safe to assume that one of the new changes had caused the problem, it was therefore quite simple to locate the few differences and analyse them.
+
+Q2: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A2: Sometimes software needs to be rolled back several versions to be built on more stable code, also it's very helpful to be able to see the many changes throughout the codes lifespan so that you can easily follow
+the changes and keep on top of them.
+
+Q3: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file seperately?
+A3: 
+
+Q4: How can you use the commands git log and git diff to view the history of files?
+
+A:
+B
+A
+A
+B
+a4: You simply navigate to the folder of a git project, type git diff, copy the IDs of the two commits you want to compared and type "git diff <id1> <id2>" where id = the first and second commit IDs.s
